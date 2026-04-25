@@ -1,0 +1,12 @@
+.mam-wrap{max-width:1100px;margin:24px auto;font-family:Inter,Arial,sans-serif;color:#1f2937}
+.mam-grid{display:grid;gap:16px}.mam-grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.mam-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:20px;box-shadow:0 2px 16px rgba(15,23,42,.04);margin-bottom:16px}
+.mam-form{display:flex;flex-direction:column;gap:10px}.mam-form input,.mam-form select,.mam-form textarea{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #d1d5db;background:#fff}
+.mam-form textarea{min-height:100px}
+.mam-btn{background:#0f766e;color:#fff;border:none;border-radius:10px;padding:10px 14px;cursor:pointer}
+.mam-btn:hover{background:#0d9488}.mam-btn-secondary{background:#dc2626}.mam-btn-outline{background:#fff;color:#0f766e;border:1px solid #0f766e}.mam-btn-small{padding:7px 10px;font-size:12px}
+.mam-alert{padding:10px 12px;border-radius:8px;margin-bottom:14px}.mam-alert-success{background:#ecfdf5;color:#065f46}.mam-alert-error{background:#fef2f2;color:#991b1b}
+.mam-table-wrap{overflow-x:auto}.mam-table{width:100%;border-collapse:collapse}.mam-table th,.mam-table td{padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top;text-align:left}
+.mam-badge{display:inline-block;border-radius:99px;padding:4px 10px;font-size:12px;font-weight:600}.mam-pending{background:#fef3c7;color:#92400e}.mam-approved{background:#dcfce7;color:#166534}.mam-rescheduled{background:#e0f2fe;color:#0c4a6e}.mam-cancelled{background:#fee2e2;color:#991b1b}
+.mam-action-group{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.mam-note{max-width:160px}.mam-col-full{grid-column:1/-1}
+@media(max-width:768px){.mam-card{padding:14px}.mam-table th,.mam-table td{font-size:13px;padding:8px}}
